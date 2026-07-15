@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CBA Store — Equipo de Boxeo Profesional | Coach Osvimer</title>
-  <meta name="description" content="Tienda oficial de equipo de boxeo del Coach Osvimer Rodriguez. Vendas, guantes, protectores y mas. Henderson, Nevada.">
+  <title>VendoShop — Tu Tienda Online</title>
+  <meta name="description" content="VendoShop — Todo lo que buscas en un solo lugar. Compra facil y seguro.">
   <link rel="stylesheet" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -15,12 +15,12 @@
   <header class="header">
     <div class="header-inner">
       <a href="#" class="logo">
-        <span class="logo-mark">🥊</span>
-        <span class="logo-text">CBA<span class="logo-accent">STORE</span></span>
+        <span class="logo-mark">🛍️</span>
+        <span class="logo-text">Vendo<span class="logo-accent">Shop</span></span>
       </a>
 
       <div class="search-bar">
-        <input type="text" id="searchInput" placeholder="Buscar guantes, vendas, protectores...">
+        <input type="text" id="searchInput" placeholder="¿Qué estás buscando?">
         <span class="search-icon">🔍</span>
       </div>
 
@@ -34,9 +34,9 @@
   <!-- ===== HERO ===== -->
   <section class="hero">
     <div class="hero-content">
-      <p class="hero-tag">🔥 ENVÍO A TODO HENDERSON</p>
-      <h1 class="hero-title">EQUIPO DE <span>CAMPEONES</span></h1>
-      <p class="hero-sub">El mismo equipo que uso con mis atletas. Calidad profesional, precio justo.</p>
+      <p class="hero-tag">✨ OFERTAS DE HOY</p>
+      <h1 class="hero-title">TODO EN UN <span>SOLO LUGAR</span></h1>
+      <p class="hero-sub">Los mejores productos, al mejor precio. Compra fácil y seguro.</p>
       <a href="#productos" class="hero-cta">VER PRODUCTOS →</a>
     </div>
   </section>
@@ -45,11 +45,18 @@
   <section class="productos-section" id="productos">
     <div class="section-head">
       <h2>Nuestros Productos</h2>
-      <p>Equipo seleccionado por el Coach Osvimer</p>
+      <p>Explora todo lo que tenemos para ti</p>
     </div>
     <div class="filtros" id="filtros"></div>
     <div class="productos-grid" id="productosGrid"></div>
   </section>
+
+  <!-- ===== MODAL PRODUCTO (galería) ===== -->
+  <div class="modal-overlay" id="modalOverlay"></div>
+  <div class="producto-modal" id="productoModal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-body" id="modalBody"></div>
+  </div>
 
   <!-- ===== CARRITO LATERAL ===== -->
   <div class="cart-overlay" id="cartOverlay"></div>
@@ -73,8 +80,8 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-col">
-        <h4>CBA STORE</h4>
-        <p>Equipo de boxeo profesional. Coach Osvimer Rodriguez, Henderson, Nevada.</p>
+        <h4>VendoShop</h4>
+        <p>Tu tienda online de confianza. Todo lo que buscas, en un solo lugar.</p>
       </div>
       <div class="footer-col">
         <h4>Tienda</h4>
@@ -91,11 +98,11 @@
         <h4>Síguenos</h4>
         <a href="#">Facebook</a>
         <a href="#">Instagram</a>
-        <a href="https://cbagym.com">cbagym.com</a>
+        <a href="#">WhatsApp</a>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2026 CBA Store · Coach Osvimer Rodriguez · Todos los derechos reservados</p>
+      <p>© 2026 VendoShop · Todos los derechos reservados</p>
     </div>
   </footer>
 
